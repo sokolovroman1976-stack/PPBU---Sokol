@@ -1,0 +1,76 @@
+
+# name = input()
+# cities = input()
+# profi = input()
+# print('=== КАРТОЧКА УЧАСТНИКА ===')
+# print ('Имя:', name)
+# print ('Город:', cities)
+# print ('Роль:', profi)
+# print('Добро пожаловать,', name, '!')
+
+# name = input()
+# start = input()
+# stop = input()
+# fly = input()
+# place = input()
+# print('================================')
+# print('ПОСАДОЧНЫЙ ТАЛОН')
+# print('Пассажир:', name)
+# print('Маршрут:', start,'->', stop)
+# print('Рейс:', fly)
+# print('Место:', place)
+# print('================================')
+
+# a = input()
+# b = input()
+# g = input()
+# d = input()
+# print('ПЕРЕСАДКА ЗАВЕРШЕНА')
+# print('Модуль Альфа:', d)
+# print('Модуль Бета:', a)
+# print('Модуль Гамма:', b)
+# print('Модуль Дельта:', g)
+
+# name = input()
+# ship = input()
+# planet = input()
+# target = input()
+# chanel = input()
+# print('=== ПРОТОКОЛ СВЯЗИ ===')
+# print('Канал:', chanel)
+# print('Планета:', planet)
+# print('Корабль:', ship)
+# print('Командир:', name)
+# print('Цель:', target)
+# print('Сообщение:', planet+',', 'корабль', '"'+ship+'"','вышел на связь!')
+
+# gen1 = int(input())
+# gen2 = int(input())
+# gen3 = int(input())
+# rem = int(input())
+# total = gen1 + gen2 + gen3
+# remaining = total - rem
+# print("Получено:", total)
+# print("Израсходовано:", rem)
+# print("Осталось:", remaining)
+
+# small = int(input())
+# smallmas = int(input())
+# big = int(input())
+# bigmas = int(input())
+# shipmas = int(input())
+# totalsmall = small * smallmas
+# totalbig = big * bigmas
+# total = totalsmall + totalbig
+# total2 = total + shipmas
+# print("Масса груза:", total)
+# print("Общая масса:", total2)
+
+length = int(input())
+width = int(input())
+cost = int(input())
+square = length * width
+per=2 * (length + width)
+print('Площадь:', square)
+print('Периметр:', per)
+print('Стоимость покрытия:', cost * square)
