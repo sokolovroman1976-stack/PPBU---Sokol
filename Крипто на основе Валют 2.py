@@ -76,7 +76,7 @@ def get_usd_rub_rate():
         return usd_rub_rate
 
     try:
-        resp = requests.get("https://www.cbr-xml-daily.ru/daily_json.js", timeout=10)
+        resp = requests.get("https://www.cbr-xml-daily.ru/daily_json.js", timeout=5)
         resp.raise_for_status()
         data = resp.json()
         usd_rub_rate = float(data["Valute"]["USD"]["Value"])
@@ -162,6 +162,10 @@ def exchange():
         )
 
     result_label.config(text=msg, fg="darkblue")
+
+
+
+
 
 
 # --- ИНТЕРФЕЙС ---
