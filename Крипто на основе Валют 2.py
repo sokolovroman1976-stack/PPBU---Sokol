@@ -9,12 +9,12 @@ import time
 json_path = 'cripto.json'
 CACHE_TTL = 300  # кэшировать курс ЦБ на 5 минут
 
-# Глобальные переменные для кэша курса USD/RUB
+# Глобальные переменные 
 usd_rub_rate = None
 last_cache_time = 0
 
 # --- ЗАГРУЗКА И ФОРМИРОВАНИЕ СПИСКА МОНЕТ ---
-# Сначала самые популярные — в таком порядке они будут в начале списка
+# Сначала самые популярные 
 top_coins = [
     "Bitcoin", "Ethereum", "Solana", "Cardano", "Ripple",
     "Toncoin", "Dogecoin", "Polkadot", "Litecoin", "Chainlink"
